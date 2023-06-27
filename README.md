@@ -11,3 +11,7 @@ I created an interface  Ticker, which gets implemented by the diffrent Ticker cl
 
 ### Creation of Index
 The Index will be created by the Index class. With the method createIndexColumn the columns for the Index Table will be created. Therfore it takes in the beforehand created Ticker tables and calculates the daily weighted sum of ticker prices. In the Runner class the columns are put together to create and print out the Index table. For the Tickers that have no trades in a day, the previous price is used.
+
+### Test
+Tests for the CSVReader can be found here /src/test/java/CodingChallengeDB/CSVReaderTest.java
+Tests for the Ticker and his 
