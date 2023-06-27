@@ -5,3 +5,6 @@ I used the library tablesaw (version:0.43.1) to manage the Task.
 
 ### Reading CSV-File
 At first the csv-file should be read. I created therefore a CSVReader class, which has a method that takes in a String(file) and reads the csv-file to create a table out of the data.
+
+### Daily aggregates for the Ticker
+I created a interface  Ticker, which gets implemented by the diffrent Ticker classes. All the Ticker classes have a method called createTickerTable, which takes in the table of the whole csv-file and calculates the daily aggregates for the Ticker and puts them in a table. 
