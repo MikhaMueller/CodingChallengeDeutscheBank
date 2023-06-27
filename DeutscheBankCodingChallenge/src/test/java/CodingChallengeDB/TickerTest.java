@@ -99,8 +99,8 @@ class TickerTest {
 	public void testcreateMEGATickerTableDailytradevol() {
 		MEGA_Ticker mega = new MEGA_Ticker();
 		Table sumMEGA = mega.createTickerTable(TickerDummyTable);
-		System.out.println(sumMEGA);
-		assertEquals(301, 76, sumMEGA.doubleColumn(5).getDouble(0));
+		
+		assertEquals(301.76, sumMEGA.doubleColumn(5).getDouble(0));
 
 	}
 
