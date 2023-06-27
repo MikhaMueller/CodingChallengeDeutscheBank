@@ -14,4 +14,5 @@ The Index will be created by the Index class. With the method createIndexColumn 
 
 ### Test
 Tests for the CSVReader can be found here /src/test/java/CodingChallengeDB/CSVReaderTest.java
-Tests for the Ticker and his creatTickerTable are here /src/test/java/CodingChallengeDB/TickerTest.java
+
+Tests for the Ticker and his createTickerTable are here /src/test/java/CodingChallengeDB/TickerTest.java
