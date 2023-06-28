@@ -11,7 +11,7 @@ import tech.tablesaw.api.Table;
 class IndexTest {
 
 	@Test
-	public void test() {
+	public void testIndexCreation() {
 		String file = "C:\\Users\\Michael Müller\\test-market1.csv";
 
 		CSVReader csv = new CSVReader();
